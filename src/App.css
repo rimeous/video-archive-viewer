@@ -1,0 +1,33 @@
+.origins_list {
+    display: block;
+    float: left;
+    padding: 10px 0;
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    border-right: 1px solid #424442;
+    background: #98A3AA;
+    color: white;
+}
+
+.origins_list li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 3px 8px;
+}
+
+.origins_list li:hover {
+    background: #424442;
+}
+
+.origins_list li.current {
+    background: #dae8fd;
+    color: #424442;
+}
+
+.archive {
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
